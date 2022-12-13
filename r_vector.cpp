@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 struct Rdec2D {
 	double x = 0.0; 
