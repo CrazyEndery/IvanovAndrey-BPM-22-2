@@ -6,10 +6,14 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.0.0"
+						"string" : "3.8"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -45,6 +49,21 @@
 						27,
 						28
 					]
+				},
+				{
+					"build" : "Vector",
+					"jsonFile" : "directory-Vector-Debug-2f2608302215ed250a99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Vector",
+					"targetIndexes" : 
+					[
+						29
+					]
 				}
 			],
 			"name" : "Debug",
@@ -53,7 +72,8 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "Cat_Mouse",
 					"targetIndexes" : 
@@ -86,7 +106,8 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29
 					]
 				}
 			],
@@ -95,7 +116,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Cat_Mouse::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Cat_Mouse-Debug-d40516898789d71af1fc.json",
+					"jsonFile" : "target-Cat_Mouse-Debug-d998bc90084c8d4b4346.json",
 					"name" : "Cat_Mouse",
 					"projectIndex" : 0
 				},
@@ -293,6 +314,13 @@
 					"id" : "NightlyUpdate::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-NightlyUpdate-Debug-212bed5f683baefadfd3.json",
 					"name" : "NightlyUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Vector::@711a2c0d59b1c1c6a0e9",
+					"jsonFile" : "target-Vector-Debug-dd164da78d67b97a17da.json",
+					"name" : "Vector",
 					"projectIndex" : 0
 				}
 			]

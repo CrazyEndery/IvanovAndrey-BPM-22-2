@@ -92,6 +92,7 @@ Cat_Mouse_EXTERNAL_OBJECTS =
 
 Cat_Mouse: CMakeFiles/Cat_Mouse.dir/main.cpp.o
 Cat_Mouse: CMakeFiles/Cat_Mouse.dir/build.make
+Cat_Mouse: Vector/libVector.a
 Cat_Mouse: CMakeFiles/Cat_Mouse.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrey/penis/Cat_Mouse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Cat_Mouse"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cat_Mouse.dir/link.txt --verbose=$(VERBOSE)

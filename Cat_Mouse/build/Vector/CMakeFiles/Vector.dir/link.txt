@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVector.a CMakeFiles/Vector.dir/geom.cpp.o
+/usr/bin/ranlib libVector.a

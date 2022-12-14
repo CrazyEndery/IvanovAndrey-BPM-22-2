@@ -1,15 +1,6 @@
+#include "geom.hpp"
 #include <iostream>
 #include <cmath>
-
-struct Rdec2D {
-	double x = 0.0; 
-	double y = 0.0;
-};
-
-struct Rpol2D {
-	double r = 0.0;
-	double phi = 0.0;
-};
 
 std::ostream& operator<<(std::ostream& ostrm, const Rdec2D& v) {
 	return ostrm << '(' << v.x << ',' << v.y << ')';

@@ -140,6 +140,9 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"path" : "Vector/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

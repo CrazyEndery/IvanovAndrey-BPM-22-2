@@ -524,17 +524,17 @@ Cat_Mouse/fast:
 .PHONY : Cat_Mouse/fast
 
 #=============================================================================
-# Target rules for targets named Library
+# Target rules for targets named Vector
 
 # Build rule for target.
-Library: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Library
-.PHONY : Library
+Vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector
+.PHONY : Vector
 
 # fast build rule for target.
-Library/fast:
-	$(MAKE) $(MAKESILENT) -f Library/CMakeFiles/Library.dir/build.make Library/CMakeFiles/Library.dir/build
-.PHONY : Library/fast
+Vector/fast:
+	$(MAKE) $(MAKESILENT) -f Vector/CMakeFiles/Vector.dir/build.make Vector/CMakeFiles/Vector.dir/build
+.PHONY : Vector/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -600,7 +600,7 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... Cat_Mouse"
-	@echo "... Library"
+	@echo "... Vector"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

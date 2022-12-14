@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/andrey/penis/Cat_Mouse/CMakeLists.txt"
-  "/home/andrey/penis/Cat_Mouse/Library/CMakeLists.txt"
+  "/home/andrey/penis/Cat_Mouse/Vector/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
@@ -45,7 +45,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "DartConfiguration.tcl"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Library/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Vector/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -79,5 +79,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "CMakeFiles/Cat_Mouse.dir/DependInfo.cmake"
-  "Library/CMakeFiles/Library.dir/DependInfo.cmake"
+  "Vector/CMakeFiles/Vector.dir/DependInfo.cmake"
   )

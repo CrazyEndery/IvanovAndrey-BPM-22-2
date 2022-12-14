@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/Cat_Mouse.dir/main.cpp.o -o Cat_Mouse 
+/usr/bin/g++ -g CMakeFiles/Cat_Mouse.dir/main.cpp.o -o Cat_Mouse  Vector/libVector.a 
