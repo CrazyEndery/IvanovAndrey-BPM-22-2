@@ -17,6 +17,5 @@ int main() {
 			std::cout << "мышка сбежала";
 			break;
 		}
-		
 	}
 }
