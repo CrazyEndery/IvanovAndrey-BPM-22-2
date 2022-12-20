@@ -1,4 +1,4 @@
-# Install script for directory: /home/andrey/penis/Cat_Mouse/vector
+# Install script for directory: /home/andrey/penis/Cat_Mouse/Vector
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

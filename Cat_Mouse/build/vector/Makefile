@@ -117,14 +117,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/andrey/penis/Cat_Mouse/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/penis/Cat_Mouse/build/CMakeFiles /home/andrey/penis/Cat_Mouse/build/vector//CMakeFiles/progress.marks
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector/all
+	cd /home/andrey/penis/Cat_Mouse/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/penis/Cat_Mouse/build/CMakeFiles /home/andrey/penis/Cat_Mouse/build/Vector//CMakeFiles/progress.marks
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrey/penis/Cat_Mouse/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector/clean
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,12 +133,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector/preinstall
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector/preinstall
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -147,25 +147,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-vector/CMakeFiles/Library.dir/rule:
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector/CMakeFiles/Library.dir/rule
-.PHONY : vector/CMakeFiles/Library.dir/rule
+Vector/CMakeFiles/Vector.dir/rule:
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector/CMakeFiles/Vector.dir/rule
+.PHONY : Vector/CMakeFiles/Vector.dir/rule
 
 # Convenience name for target.
-Library: vector/CMakeFiles/Library.dir/rule
-.PHONY : Library
+Vector: Vector/CMakeFiles/Vector.dir/rule
+.PHONY : Vector
 
 # fast build rule for target.
-Library/fast:
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f vector/CMakeFiles/Library.dir/build.make vector/CMakeFiles/Library.dir/build
-.PHONY : Library/fast
+Vector/fast:
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f Vector/CMakeFiles/Vector.dir/build.make Vector/CMakeFiles/Vector.dir/build
+.PHONY : Vector/fast
 
 geom.o: geom.cpp.o
 .PHONY : geom.o
 
 # target to build an object file
 geom.cpp.o:
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f vector/CMakeFiles/Library.dir/build.make vector/CMakeFiles/Library.dir/geom.cpp.o
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f Vector/CMakeFiles/Vector.dir/build.make Vector/CMakeFiles/Vector.dir/geom.cpp.o
 .PHONY : geom.cpp.o
 
 geom.i: geom.cpp.i
@@ -173,7 +173,7 @@ geom.i: geom.cpp.i
 
 # target to preprocess a source file
 geom.cpp.i:
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f vector/CMakeFiles/Library.dir/build.make vector/CMakeFiles/Library.dir/geom.cpp.i
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f Vector/CMakeFiles/Vector.dir/build.make Vector/CMakeFiles/Vector.dir/geom.cpp.i
 .PHONY : geom.cpp.i
 
 geom.s: geom.cpp.s
@@ -181,7 +181,7 @@ geom.s: geom.cpp.s
 
 # target to generate assembly for a file
 geom.cpp.s:
-	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f vector/CMakeFiles/Library.dir/build.make vector/CMakeFiles/Library.dir/geom.cpp.s
+	cd /home/andrey/penis/Cat_Mouse/build && $(MAKE) $(MAKESILENT) -f Vector/CMakeFiles/Vector.dir/build.make Vector/CMakeFiles/Vector.dir/geom.cpp.s
 .PHONY : geom.cpp.s
 
 # Help Target
@@ -195,7 +195,7 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... Library"
+	@echo "... Vector"
 	@echo "... geom.o"
 	@echo "... geom.i"
 	@echo "... geom.s"
