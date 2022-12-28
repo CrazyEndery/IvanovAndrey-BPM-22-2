@@ -14,7 +14,7 @@ int main(){
         int sum = 0;
         for (int j = 0; j < i/w+1; j+=1){
             for(int t = 0; t < i%w+1; t+=1){
-                sum+=m[(j*h)+t];
+                sum+=m[(j*w)+t];
             }
         }
         if(k==w){
