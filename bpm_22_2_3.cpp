@@ -7,9 +7,7 @@ int main(){
     std::string ostr;
     std::cin >> n >> str;
     for (int i = n-1;i>0;i-=1){
-        char n;
-        n = str[i];
-        ostr.insert(ostr.size()/2,n);
+        ostr.insert(ostr.size()/2,);
         
     }
     //volga voga vga va a 
